@@ -105,7 +105,7 @@ export default {
 }
 .homepage_container > div{
   margin: 10px;
-  border: 1px solid #f3f3f3;
+  /* border: 1px solid #f3f3f3; */
   padding: 10px;
   width: 20%;
 }
@@ -143,7 +143,8 @@ th{
 .Goldfields_component{
   margin-top: 30px;
   padding: 20px;
-  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  box-shadow: 0px 0px 6px #e6e6e6;
 }
 .middle-circle{
   background: url(../assets/groundbg.jpg) no-repeat;
@@ -162,7 +163,7 @@ th{
     width: 350px;
     margin: auto;
     padding: 20px;
-    background: #f2f2f2;
+    background: #424242;
     border-radius: 5px;
 }
 .middle-circle > div{

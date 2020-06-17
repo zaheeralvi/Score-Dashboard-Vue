@@ -4,8 +4,8 @@
       <div class="flex flex-wrap items-center space-between p-30">
         <div class="clearfix">
           <ScaleDown  left :closeOnNavigation="true" noOverlay >
-            <router-link to="/">Ladder</router-link>
-            <router-link to="/matches">Matches</router-link>
+            <router-link to="/">Matches</router-link>
+            <router-link to="/ladder">Ladder</router-link>
           </ScaleDown ></div>
       </div>
       <div>
@@ -32,20 +32,24 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.app_body{
+  background-color: #303030;
+  color: #fff;
+}
 .mr-5{
   margin-right: 5px;
 }
 #nav {
   padding: 20px;
-  background-color: #d6d6d6;
+  color: #fff;
+  background-color: #424242;
   border-radius: 5px;
+}
+.line-style{
+  background-color: #fff;
 }
 .justify-center{
   justify-content: center;
-}
-.listItem{
-  border: 1px solid #d8d5d1;
-  border-radius: 5px;
 }
 .font-normal{
   font-weight: normal;

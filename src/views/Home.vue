@@ -101,7 +101,7 @@ export default {
 }
 .homepage_container > div{
   margin: 10px;
-  border: 1px solid #f3f3f3;
+  /* border: 1px solid #f3f3f3; */
   padding: 10px;
   width: 20%;
 }
@@ -117,7 +117,8 @@ th{
 .Goldfields_component{
   margin-top: 30px;
   padding: 20px;
-  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  box-shadow: 0px 0px 6px #e6e6e6;
 }
 
 

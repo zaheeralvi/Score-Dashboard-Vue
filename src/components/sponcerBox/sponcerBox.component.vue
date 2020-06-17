@@ -18,7 +18,7 @@ export default {
     font-weight: bold;
     height: 100%;
     border-radius: 5px;
-    background-color: #d6d6d6;
+    background-color: #424242;
 }
 @media screen and (max-width:900px){
   .SpancerBox{

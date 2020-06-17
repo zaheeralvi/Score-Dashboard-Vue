@@ -6,12 +6,12 @@ Vue.use(VueRouter)
 
   const routes = [
   {
-    path: '/',
+    path: '/ladder',
     name: 'Home',
     component: Home
   },
   {
-    path: '/matches',
+    path: '/',
     name: 'matches',
     component: () => import('../views/MatchListing.vue')
   },
