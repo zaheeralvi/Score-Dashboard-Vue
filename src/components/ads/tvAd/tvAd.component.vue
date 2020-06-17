@@ -18,6 +18,7 @@ export default {
     margin-bottom: 5px;
     font-weight: bold;
     min-height: 150px;
+    background-color: #d6d6d6;
 }
 @media screen and (max-width: 900px) {
    .tvAd{

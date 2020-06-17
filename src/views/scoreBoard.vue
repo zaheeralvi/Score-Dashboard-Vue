@@ -146,11 +146,14 @@ th{
   border: 1px solid #f3f3f3;
 }
 .middle-circle{
-    height: 600px;
-    width: 600px;
-    margin: 80px auto auto;
-    box-shadow: 0 0 14px #e3e3e3;
-    border-radius: 100%;
+  background: url(../assets/groundbg.jpg) no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+  height: 600px;
+  width: 600px;
+  margin: 80px auto auto;
+  box-shadow: 0 0 14px #e3e3e3;
+  border-radius: 100%;
 }
 .title-header{
     position: absolute;

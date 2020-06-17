@@ -11,10 +11,15 @@ Vue.use(VueRouter)
     component: Home
   },
   {
-    path: '/about',
-    name: 'About',
+    path: '/matches',
+    name: 'matches',
+    component: () => import('../views/MatchListing.vue')
+  },
+  {
+    path: '/matches/:id',
+    name: 'matchesDetail',
     component: () => import('../views/scoreBoard.vue')
-  }
+  },
 ]
 
 const router = new VueRouter({
